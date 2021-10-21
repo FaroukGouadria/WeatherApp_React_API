@@ -1,11 +1,12 @@
 
 import './App.css';
+import WeatherSearch from './Components/WeatherSearch';
 
 function App() {
   return (
-    <>
-    hello
-    </>
+    <div>
+     <WeatherSearch/>
+    </div>
   );
 }
 
